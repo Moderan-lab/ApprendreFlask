@@ -1,0 +1,17 @@
+{% extends 'layouts/default.html' %}
+
+{% block body %}
+
+<h1>BLOG</h1>
+{% for variable in moderan %}
+
+
+<article>
+	<h2> <a href="/blog/posts/{{variable.id}}"> {{variable.id}} - {{variable.title}}</a> </h2>
+	{{variable.content}}
+</article>
+<hr>
+
+{% endfor %}
+ {% endblock %}
+
