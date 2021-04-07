@@ -1,0 +1,16 @@
+{% extends 'layouts/default.html' %}
+
+{% block body %}
+
+
+<article>
+	<h1> {{mode.title}} </h1>
+
+	<p> {{mode.content}} </p>
+
+</article>
+
+Ajouter au panier.
+
+<a href="{{url_for ('Blog') }}">  Toutes les voitures. </a>  
+{% endblock %}
