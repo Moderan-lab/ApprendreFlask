@@ -4,7 +4,7 @@ from flask import render_template
 list_post= [
 	{"id":1, "title":'TOYOTA NISSAN', "content":"Tout terrain blinde"},
 	{"id":2, "title":'Range Over', "content":"Couleur noir"},
-	{"id":3, "title":'4*4', "content":"Tout terrain silencieux"} ]
+	{"id":3, "title":'4*4', "content":"Tout terrain silencieux h"} ]
 
 
 app= Flask(__name__)
